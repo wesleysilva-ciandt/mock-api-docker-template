@@ -43,7 +43,7 @@ docker-compose down -d
 #### Estrutura
 
 ```
-api-mock
+mock-api-docker-template
   ├── mocks
   │   ├── api-one-example
   │   │     ├── response
