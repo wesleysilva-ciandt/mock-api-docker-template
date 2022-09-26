@@ -35,7 +35,7 @@ docker-compose down -d
 
 #### Server
 
-|     | Name API        | URL            |
+|     | API             | URL            |
 | :-- | :-------------- | :------------- |
 | 1   | api-one-example | localhost:3030 |
 | 2   | api-two-example | localhost:5050 |
