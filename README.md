@@ -40,7 +40,7 @@ docker-compose down -d
 | 1   | api-one-example | localhost:3030 |
 | 2   | api-two-example | localhost:5050 |
 
-#### Arch
+#### Estrutura
 
 ```
 api-mock
@@ -60,6 +60,6 @@ api-mock
   └── README.md
 ```
 
-#### References
+#### Referências
 
 https://github.com/mrak/stubby4node
