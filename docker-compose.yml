@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  example-api-one:
+    working_dir: ${API_ONE_URL}
+    volumes:
+      - ./:${API_ONE_URL}
+    ports:
+      - ${API_ONE_PORTS}
+    build:
+      context: .${API_ONE_URL}
+      args:
+        - PORT=${API_ONE_PORT}
+        - URL=${API_ONE_URL}
+      dockerfile: DockerFile
+
+  example-api-two:
+    working_dir: ${API_TWO_URL}
+    volumes:
+      - ./:${API_TWO_URL}
+    ports:
+      - ${API_TWO_PORTS}
+    build:
+      context: .${API_TWO_URL}
+      args:
+        - PORT=${API_TWO_PORT}
+        - URL=${API_TWO_URL}
+      dockerfile: DockerFile

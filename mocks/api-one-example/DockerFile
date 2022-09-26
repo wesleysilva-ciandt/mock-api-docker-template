@@ -1,0 +1,15 @@
+FROM node
+
+#args
+ARG URL
+ARG PORT
+
+#environment
+ENV PORT $PORT
+ENV URL $URL
+
+#command
+RUN npm install -g stubby
+CMD stubby -s ${PORT} -w -d .${URL}/endpoints.yml
+
+WORKDIR ${URL}

@@ -1,0 +1,15 @@
+- request:
+    url: /api/v1/users
+    method: GET
+  response:
+    status: 200
+    file: "response/users/200.json"
+
+
+- request:
+    url: /api/v1/user
+    method: GET
+  response:
+    status: 200
+    file: "response/user/200.json"
+
