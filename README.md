@@ -10,11 +10,15 @@ Usando variáveis de ambientes para facilitar mudanças de URL e PORT das API's.
 #### Requisitos
 
 - Docker
+  <br/>
   [Linux](https://docs.docker.com/desktop/install/ubuntu/)
+  <br/>
   [Windows](https://docs.docker.com/desktop/install/windows-install/)
   <br/>
 - Docker Compose
+  <br/>
   [Linux](https://docs.docker.com/compose/install/linux/)
+  <br/>
   Incluido na instalação do docker desktop
 
 #### Iniciar aplicação
