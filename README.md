@@ -7,7 +7,7 @@ Usando variáveis de ambientes para facilitar mudanças de URL e PORT das API's.
 
 [<img align="center" alt="Ruben-Python" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"> wrubenp9](https://github.com/wrubenp9)
 
-#### Requirements
+#### Requisitos
 
 - Docker
   [Linux](https://docs.docker.com/desktop/install/ubuntu/)
@@ -17,17 +17,17 @@ Usando variáveis de ambientes para facilitar mudanças de URL e PORT das API's.
   [Linux](https://docs.docker.com/compose/install/linux/)
   Incluido na instalação do docker desktop
 
-#### Run
+#### Iniciar aplicação
 
 _O parâmetro `-d` executa o container em background_
 
-###### Inicializar contêineres
+###### Cria e inicia contêineres
 
 ```
 docker-compose up -d
 ```
 
-###### Interrompe contêineres
+###### Para e remove contêineres
 
 ```
 docker-compose down -d
